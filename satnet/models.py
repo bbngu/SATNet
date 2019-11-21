@@ -4,7 +4,7 @@ from torch.autograd import Function
 import torch.optim as optim
 
 import satnet._cpp
-if torch.cuda.is_available(): import satnet._cuda
+# if torch.cuda.is_available(): import satnet._cuda
 
 
 def get_k(n):
